@@ -35,7 +35,7 @@ Bienvenido al repositorio Cybersecurity. Este proyecto está diseñado para ofre
 📄 Licencia
 
 Este proyecto está bajo la licencia MIT, lo que significa que puedes usar, modificar y distribuir libremente las herramientas mientras se atribuya la fuente original.
-English (README.md)
+
 🚀 Cybersecurity Project
 
 Welcome to the Cybersecurity repository. This project is designed to provide advanced tools for security auditing and vulnerability analysis. Whether you're a cybersecurity company, a security auditor, or an enthusiast in the field, these tools are designed to meet your professional needs.
