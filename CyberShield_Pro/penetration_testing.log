@@ -1,4 +1,2 @@
-2024-09-07 21:34:12,090 - INFO - Escaneo Nmap iniciado con comando: nmap -sV -sC -O -p- 192.168.1.1
-2024-09-07 21:34:16,108 - ERROR - Error en la operación: dnet: Failed to open device wlan0
-QUITTING!
+
 
