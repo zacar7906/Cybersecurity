@@ -1,0 +1,22 @@
+{
+    "default_user_agent": "BugBountyPro/1.0",
+    "default_scan_intensity": "full",
+    "external_tool_paths": {
+        "sqlmap": "sqlmap",
+        "xsser": "xsser",
+        "nmap": "nmap",
+        "subfinder": "subfinder",
+        "nuclei": "nuclei"
+    },
+    "default_sqlmap_options": ["--level=1", "--risk=1", "--technique=B"],
+    "default_xsser_options": ["--auto", "--crawl=0", "-s"],
+    "default_nmap_options": ["-sV", "-T4", "--open"],
+    "default_subfinder_options": [],
+    "default_nuclei_options": ["-severity", "critical,high,medium"],
+    "idor_common_paths": ["users", "api/profile", "api/v1/items", "account", "userinfo", "my-account", "details"],
+    "cmd_injection_params": ["cmd", "exec", "query", "run", "ping", "ip", "host", "system", "command"],
+    "open_redirect_params": ["redirect", "url", "next", "goto", "dest", "returnTo", "continue", "rurl", "URL", "Redirect"],
+    "sqli_test_params": ["id", "cat", "category", "item", "page", "name", "search", "query", "p", "prod", "user", "articleid"],
+    "xss_test_params": ["q", "s", "search", "query", "keyword", "name", "param", "input", "term", "redirect", "msg", "message"],
+    "lfi_test_params": ["file", "page", "include", "document", "path", "load", "name", "pg", "item", "view", "cat", "template"]
+}
